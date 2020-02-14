@@ -1,0 +1,92 @@
+.html {
+  display: block;
+  height: 100%;
+}
+
+.center {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  align-items: center;
+  margin-top: 14%;
+}
+.center h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  padding-top: 20px;
+  font-size: 75px;
+  padding-bottom: 20px;
+}
+.center h6 {
+  color: blue;
+  font-size: 20px;
+}
+.navlink {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  margin-right: 40px;
+}
+
+.desc {
+  color: blue;
+  text-decoration: underline;
+}
+
+.navbrand {
+  margin-left: 10px;
+}
+
+.logo {
+  height: 35px;
+  width: 120px;
+}
+body {
+  display: block;
+  font-family: "Poppins", sans-serif;
+  height: 100%;
+}
+
+.container-fluid {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: rgb(234, 255, 208);
+  background: linear-gradient(
+    90deg,
+    rgba(234, 255, 208, 1) 50%,
+    rgba(255, 255, 255, 1) 51%
+  );
+  background-size: cover;
+}
+
+.displaypic {
+  display: block;
+  text-align: center;
+  position: relative;
+  top: 20%;
+  left: 20%;
+  margin-top: 20px;
+  border-radius: 100%;
+}
+
+.centerBlock {
+  display: table;
+  margin: auto;
+}
+
+.abouth1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 60px;
+  text-decoration-style: double;
+  text-decoration-line: overline underline;
+}
+
+.tablecontent {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 60px;
+  background-color: honeydew;
+}
