@@ -5,7 +5,7 @@ function Home() {
   return (
     <div>
       <Container fluid>
-        <div className="center" style={{ fontWeight: 700 }}>
+        <div className="center">
           <h6>Hey! I am</h6>
           <h1>Abhuday Mishra</h1>
           <h3>

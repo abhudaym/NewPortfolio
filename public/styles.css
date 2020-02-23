@@ -1,6 +1,7 @@
 .html {
   display: block;
   height: 100%;
+  overflow: hidden;
 }
 
 .center {
@@ -8,7 +9,7 @@
   font-weight: 700;
   text-align: center;
   align-items: center;
-  margin-top: 14%;
+  margin: auto;
 }
 .center h1 {
   font-family: "Poppins", sans-serif;
@@ -60,13 +61,11 @@ body {
 }
 
 .displaypic {
-  display: block;
   text-align: center;
-  position: relative;
-  top: 20%;
-  left: 20%;
-  margin-top: 20px;
-  border-radius: 100%;
+  margin-top: 50px;
+  border-radius: 0;
+  width: 400px;
+  margin-bottom: 50px;
 }
 
 .centerBlock {
@@ -89,4 +88,248 @@ body {
   text-align: center;
   margin-top: 60px;
   background-color: honeydew;
+  font-size: 1.3rem;
+}
+
+.about-area {
+  margin-top: 75px;
+  margin-bottom: 65px;
+}
+
+.w-100 {
+  border-radius: 2%;
+}
+
+.section-title {
+  margin-left: 40px;
+}
+
+.title {
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+  text-decoration-style: wavy;
+  text-decoration-line: underline;
+  margin-bottom: 30px;
+}
+
+.description {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+@media (min-width: 320px) {
+  .center h1 {
+    font-size: 100px;
+  }
+  .center h6 {
+    font-size: 50px;
+  }
+  .center h3 {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 576px) {
+  .center h1 {
+    font-size: 85px;
+  }
+  .center h6 {
+    font-size: 40px;
+  }
+  .center h3 {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .center h1 {
+    font-size: 75px;
+  }
+  .center h6 {
+    font-size: 30px;
+  }
+  .center h3 {
+    font-size: 30px;
+  }
+}
+
+.container-fluid-1 {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  line-height: 1.5;
+}
+
+.desc1 {
+  padding-bottom: 0;
+}
+.conversation {
+  height: 160px;
+  width: 160px;
+}
+
+.c-logo {
+  height: 160px;
+  width: 160px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.Skills {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.skill-row {
+  margin-left: 50px;
+}
+
+.skill-p {
+  margin: 30px 50px 10px;
+}
+
+.skill-h3 {
+  color: #66bfbf;
+  font-size: 20px;
+  margin: 0;
+}
+
+.edu-p {
+  margin: 20px 40px 5px;
+}
+
+.lf {
+  margin-bottom: 0;
+}
+
+.lfh {
+  margin-left: 19%;
+  max-width: 60%;
+  text-align: center;
+}
+
+.caritem {
+  width: 180px;
+  height: 180px;
+  text-align: center;
+  margin-left: 400px;
+}
+
+.container-fluid-2 {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  filter: invert(100%);
+}
+
+.carousel {
+  margin-top: 90px;
+  width: 1000px;
+}
+
+.resumeTag {
+  margin-top: 100px;
+  margin-left: 36%;
+  border: 3px, blue;
+  background-color: #7892c2;
+  border-radius: 10px;
+  border: 1px solid;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #283966;
+}
+
+.resumeTag:active {
+  position: relative;
+  top: 1px;
+}
+
+.contactForm {
+  font-family: "Source Sans Pro", sans-serif;
+  color: white;
+  font-weight: 300;
+  background: #50a3a2;
+  width: 100%;
+  height: 100%;
+}
+
+.container-fluid-3 {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 10% auto 0 auto;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.container-fluid-3 h1 {
+  font-size: 40px;
+  font-weight: 200;
+}
+
+.input {
+  border: 1px solid rgba(252, 252, 252, 0.4);
+  background-color: rgba(252, 252, 252, 0.2);
+  width: 250px;
+  border-radius: 3px;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 10px 15px;
+  margin: 0 auto 10px auto;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  font-weight: 300;
+}
+
+button {
+  appearance: none;
+  outline: 0;
+  background-color: white;
+  border: 0;
+  padding: 10px 15px;
+  color: #50a3a2;
+  border-radius: 3px;
+  width: 250px;
+  font-size: 18px;
+}
+
+.contacth1 {
+  margin-top: 3%;
+}
+
+.bottom-container {
+  text-align: center;
+  background: #50a3a2;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  margin-top: 0px;
+}
+.footer-link {
+  color: #rgb(234, 255, 208);
+  margin: 10px 20px;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
