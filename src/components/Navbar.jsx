@@ -4,7 +4,6 @@ import logo from "../../public/images/logo.png";
 
 function MainNav() {
   return (
-    //Navigation Doesn't seem to be working.
     <Navbar collapseOnSelect bg="transparent" variant="transparent" fixed="top">
       <Navbar.Brand className="navbrand" href="#home">
         <img src={logo} alt="logo" className="logo" />

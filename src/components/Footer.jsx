@@ -3,6 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <div className="bottom-container">
+      <hr />
       <footer>
         <a className="footer-link" href="https://www.linkedin.com/in/abhudaym">
           LinkedIn

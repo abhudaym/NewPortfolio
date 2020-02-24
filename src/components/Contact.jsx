@@ -34,7 +34,7 @@ function Contact() {
   }
 
   return (
-    <div className="container-fluid-3 contactForm">
+    <div className="container-fluid-3 contactForm" id="contacts">
       <h1 className="title">Contact Me</h1>
       <h1 className="contacth1">
         Hello {contact.fName} {contact.lName}

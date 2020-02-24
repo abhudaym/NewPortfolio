@@ -269,9 +269,9 @@ body {
 }
 
 .container-fluid-3 {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 100vh; */
   margin: 10% auto 0 auto;
   padding: 80px 0;
   text-align: center;
