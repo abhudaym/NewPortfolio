@@ -15,7 +15,7 @@ function MainNav() {
         <Nav.Link className="navlink" href="#resume">
           Resume
         </Nav.Link>
-        <Nav.Link className="navlink" href="#contact">
+        <Nav.Link className="navlink" href="#contacts">
           Contact
         </Nav.Link>
       </Nav>
