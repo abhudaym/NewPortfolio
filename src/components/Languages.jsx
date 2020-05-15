@@ -1,13 +1,13 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
-import js from "../../public/images/javascript-logo-png-transparent.png";
-import reactjs from "../../public/images/reactjs.png";
-import html from "../../public/images/html5.png";
-import css from "../../public/images/css.png";
-import mongodb from "../../public/images/mongodb.png";
-import mysql from "../../public/images/mysql.png";
-import bootstrap from "../../public/images/bootstrap.png";
-import nodejs from "../../public/images/nodejs.png";
+import js from "../images/javascript-logo-png-transparent.png";
+import reactjs from "../images/reactjs.png";
+import html from "../images/html5.png";
+import css from "../images/css.png";
+import mongodb from "../images/mongodb.png";
+import mysql from "../images/mysql.png";
+import bootstrap from "../images/bootstrap.png";
+import nodejs from "../images/nodejs.png";
 
 function Languages() {
   return (

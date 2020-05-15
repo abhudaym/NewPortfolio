@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import School from "../../public/images/School.png";
-import Books from "../../public/images/books.png";
-import Diploma from "../../public/images/diploma.png";
+import School from "../images/School.png";
+import Books from "../images/books.png";
+import Diploma from "../images/diploma.png";
 
 function Education() {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import mainPhoto from "../../public/images/1.jpeg";
+import mainPhoto from "../images/1.jpeg";
 function About() {
   return (
     <div className="about-area about-position-top pb--120" id="about">

@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import coding from "../../public/images/coding.png";
-import conversation from "../../public/images/conversation.png";
+import coding from "../images/coding.png";
+import conversation from "../images/conversation.png";
 
 function Skills() {
   return (
