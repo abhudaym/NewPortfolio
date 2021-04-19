@@ -39,7 +39,7 @@ function Languages() {
         </Carousel.Item>
       </Carousel>
       <a
-        href="https://drive.google.com/file/d/18dpTDf1AqVEUJdBte7iHOZwhzt_1KKXH/view?usp=sharing"
+        href="https://drive.google.com/file/d/1ypnrgwQuFd4OOOqkXDRSUgy8C7DsbMEF/view?usp=sharing"
         className="resumeTag"
       >
         Download Complete Resume
